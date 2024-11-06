@@ -1,2 +1,80 @@
+.city {
+    background-color: lightblue;
+    
+  }
+
+  .main {
+    color: white;
+  }
+
+  #US {
+    border-style: solid;
+  }
+
+  /* body {
+    background-image: url(./Ronaldo.jpg);
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+  } */
+
+
+  body {
+    background: gray url(./background2.jpg) no-repeat scroll 
+  }
+
+  body {
+    background-size: cover;
+  }
+
+  #london {
+    background-image: url(
+       ./london.jpg 
+    );
+
+    background-position: top right;
+    background-repeat:no-repeat;
+    background-size: contain;
+    
+  }
+
+  #paris {
+    background-image: url(
+        ./paris.jpg 
+     );
+ 
+     background-position: top right;
+     background-repeat:no-repeat;
+     background-size: contain;
+  }
+
+  #abuja {
+    background-image: url(
+        ./Abuja.jpg
+     );
+ 
+     background-position: top right;
+     background-repeat:no-repeat;
+     background-size: contain;
+  }
+
+  #newyork{
+    background-image: url(
+        ./new-york.jpg
+     );
+ 
+     background-position: top right;
+     background-repeat:no-repeat;
+     background-size: contain;
+  }
+
+  .nav {
+    background-color: green;
+    
+  }
+
+ 
+  
 
 
