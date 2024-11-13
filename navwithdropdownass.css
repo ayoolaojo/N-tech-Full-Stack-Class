@@ -1,0 +1,100 @@
+ * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 0;
+ }
+ 
+ 
+ nav{
+    background-color: black;
+    height: 80px;
+    max-width: 100%;
+    align-content: center;
+}
+
+li {
+     display: inline-block;
+    margin-inline: 10px; 
+   
+    
+  
+  
+}
+a:hover {
+    color: blue;
+    background-color: rgb(253, 243, 243);
+}
+
+
+li a {
+    
+    text-decoration: none;
+    color: white;
+    font-size: 85%;
+    
+    
+}
+
+ button {
+    height: 50px;
+    width: 300px;
+    margin-left: 400px;
+    border-radius: 50px;
+    font-size: 90%;
+    
+}
+
+button i {
+     margin-left: 50px;
+     font-size: 120%;   
+}
+
+button img {
+    height: 15px;
+    width: 50px;
+    margin-left: 80px;
+    
+ }  
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  
+    
+}
+
+.dropdown-content {
+    position: absolute;
+    display: none;
+    background-color: gray;
+    font-size: 80%;
+    width: 100px;
+    height: 120px;
+    padding: 0;
+    
+    
+       
+    
+}
+
+.dropdown-content li {
+    list-style: none;
+    
+     margin-top: 10px;
+     border-bottom: 1px solid white;   
+}
+
+.dropdown-content li a {
+    text-decoration:none;
+    color: black;
+    margin-left: 0px;
+    font-size: 120%;
+    
+   
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    
+}
