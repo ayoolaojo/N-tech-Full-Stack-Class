@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(241, 209, 209, 0.966);
+    padding: 10% 30% 0 30%;
+    
+}
+
+
+section{
+    height: 500px;
+    width: 100%;
+    background-color:rgb(218, 190, 190);
+    padding:5% 2%;
+    border-radius: 5%;
+}
+
+
+.profile {
+    width: 100%;
+    height: 70px;
+    position: relative;
+    
+}
+
+.profile img {
+    height: 50px;
+    width: 50px;
+    border-radius:50px;
+
+}
+
+ .profile svg {
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px; 
+    position: absolute;
+    right: 0;
+    top: 2px;
+    padding: 5px;
+    
+}
+
+.profile h3 {
+    position: absolute;
+    left: 60px;
+    top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    font-size: 90%;
+
+} 
+
+.profile p{
+    position: absolute;
+    left: 60px;
+    top: 35px;
+    color: rgb(131, 126, 126);
+    font-size: 85%;
+} 
+
+.buy {
+    width: 100%;
+    height: 80px;
+    position: relative;
+}
+
+.buy h2 {
+    font-weight: 300;
+
+}
+  
+.buy svg {
+  width: 20px;
+  height: 20px;
+  background-color:yellow;
+  position: absolute;
+  left: 140px;
+  top: 15px;
+
+}
+
+.search {
+    width: 100%;
+    height: 60px;
+    position: relative;
+    
+}
+
+.search svg{
+    height: 50px;
+    width: 40px;
+    background-color: orangered;
+    padding: 2%;
+    border-radius: 9px;
+    position: absolute;
+    right:5px ;
+   
+}
+
+.search button {
+    background-color: white;
+    color: rgb(158, 154, 154);
+    height: 50px;
+    width: 340px;
+    border: 0;
+    border-radius:10px;
+}
+
+.search button svg{
+    height: 30px;
+    width: 50px;
+    left: 0;
+    top: 10px;
+    background-color: white;
+    
+}
+
+.special {
+    height: 160px;
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    background-color: rgb(253, 181, 154);
+    border-radius: 20px;
+    padding: 2%;
+}
+
+.special-item {
+  height: 150px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.special-item img {
+    width: 100%; 
+    height: 140px;
+    filter: contrast(2);
+    border-radius: 10px;
+}
+
+.special-item h2{
+    font-weight: 400;
+}
+
+.special-item p{
+    color: rgb(71, 69, 69);
+    margin-top: 10px;
+}
+
+.special-item button{
+    height: 35px;
+    border: 0;
+    width: 110px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.all {
+    display: flex;
+    gap: 10px;
+}
+

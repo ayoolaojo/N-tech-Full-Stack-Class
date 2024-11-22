@@ -1,0 +1,23 @@
+/* nav {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+nav a{
+    border: 1px solid black;
+}
+
+
+/* nav a:first-child{
+    flex: 5%;
+} */ */
+
+
+
+
+nav{
+    height: 200px;
+    width: 100%;
+    background-color: gray;
+}
